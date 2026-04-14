@@ -40,3 +40,6 @@ jobs:
 
       - name: Verify image exists
         run: docker image ls github-cloud-lab
+
+      - name: Aqua Security Trivy
+        uses: aquasecurity/trivy-action@v0.35.0
